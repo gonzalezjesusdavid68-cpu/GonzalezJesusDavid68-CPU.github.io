@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "landingpage",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "landingpage"
+	}
+}
