@@ -202,6 +202,28 @@ section {
     }
 }
 
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: #fff;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(0,0,0,.3);
+  z-index: 1000;
+}
+
+.whatsapp-float:hover {
+  background-color: #1ebe5d;
+}
+
     
 footer {
     background-color: $quaternary-color;
@@ -214,3 +236,14 @@ footer {
         gap: 40px;
         }
     }
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .whatsapp-float {
+    width: 55px;
+    height: 55px;
+    font-size: 26px;
+  }
+}
