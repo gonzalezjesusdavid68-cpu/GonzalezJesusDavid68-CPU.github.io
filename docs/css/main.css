@@ -215,32 +215,6 @@ footer .social-media {
   padding-bottom: 40px;
   gap: 40px;
 }
-.contact-section {
-    padding: 40px;
-    background: #f7f7f7;
-    text-align: center;
-}
-
-.contact-section form {
-    max-width: 400px;
-    margin: auto;
-}
-
-.contact-section input,
-.contact-section textarea {
-    width: 100%;
-    padding: 12px;
-    margin-bottom: 10px;
-}
-
-.contact-section button {
-    background: #25D366;
-    color: white;
-    border: none;
-    padding: 14px;
-    cursor: pointer;
-    font-size: 16px;
-}
 
 @media (max-width: 768px) {
   h1 {
